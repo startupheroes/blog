@@ -1,0 +1,69 @@
+# Site title
+title: Startupheroes Blog
+
+# Tagline below the site title on post list pages
+tagline: Thoughts, stories and ideas.
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description:
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://startuphero.es"
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl: "/blog"
+
+# The site cover image on the home page
+image: 
+
+# The shortname for your Disqus site to enable comments
+disqus_shortname:
+
+# Your Google Analytics tracking code
+google_analytics_tracking_id:
+
+
+# Site navigation
+nav:
+  - title: "Home"
+    url:   "/"
+
+# The links in the site footer
+footer_links:
+  - title: "RSS"
+    url:   "/blog/feed.xml"
+
+
+# Author information
+authors:
+  pasali:
+    name: Mehmet Başal
+    website: https://github.com/pasali
+    bio: pasali's bio 
+    avatar: https://avatars0.githubusercontent.com/u/630249
+  cemo:
+    name: Cemalettin Koç
+    website: https://github.com/cemo
+    bio: cemo's bio 
+    avatar: https://avatars3.githubusercontent.com/u/44156
+
+
+# Extra Open Graph and Twitter Cards settings for social sharing
+
+# Fallback og:image when no page.image or site.image. Facebook requires image be
+# at least 200 x 200 pixels.
+og_image:
+
+# twitter:site. Your Twitter username without "@"
+twitter_site:
+
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: page/:num/
+gems: [jekyll-paginate]
+
+permalink: /:title/
+markdown: kramdown
+kramdown:
+  input: GFM
